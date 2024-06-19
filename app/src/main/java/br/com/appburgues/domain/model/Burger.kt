@@ -6,6 +6,6 @@ data class Burger(
     val images: List<Image?>? = emptyList(),
     val desc: String? = "",
     val ingredients: List<Ingredient?>? = emptyList(),
-    val price: Double? = 0.0,
+    val price: Float? = 0.0F,
     val veg: Boolean? = false
 )

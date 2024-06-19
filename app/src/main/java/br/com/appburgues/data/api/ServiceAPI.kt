@@ -1,6 +1,6 @@
 package br.com.appburgues.data.api
 
-import br.com.appburgues.data.model.BurgerResponse
+import br.com.appburgues.data.response.BurgerResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

@@ -1,4 +1,4 @@
-package br.com.appburgues.data.model
+package br.com.appburgues.data.response
 
 data class ImageResponse  (
     val sm: String,

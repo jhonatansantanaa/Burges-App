@@ -1,6 +1,6 @@
 package br.com.appburgues.domain.repository
 
-import br.com.appburgues.data.model.BurgerResponse
+import br.com.appburgues.data.response.BurgerResponse
 
 interface BurgerRepository {
 
