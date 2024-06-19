@@ -8,6 +8,6 @@ interface BurgerRepository {
 
     suspend fun getBurgerById(burgerId: Int): BurgerResponse
 
-    suspend fun updateBurgerByName(burgerName: String): List<BurgerResponse>
+    suspend fun getBurgerByName(name: String): List<BurgerResponse>
 
 }
